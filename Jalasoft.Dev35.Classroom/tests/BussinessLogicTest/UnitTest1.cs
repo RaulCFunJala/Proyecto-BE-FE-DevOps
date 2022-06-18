@@ -7,7 +7,6 @@ namespace BussinessLogicTest
         [Fact]
         public void Test1()
         {
-
         }
     }
 }

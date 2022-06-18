@@ -26,7 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Models\Models.csproj" />
-    <ProjectReference Include="..\..\BussinessLogic\BussinessLogic.csproj" />
+    <ProjectReference Include="..\..\Classroom\Classroom.csproj" />
   </ItemGroup>
 
   <ItemGroup>

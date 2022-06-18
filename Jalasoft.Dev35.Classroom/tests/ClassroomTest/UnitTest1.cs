@@ -7,7 +7,6 @@ namespace PresentationTest
         [Fact]
         public void Test1()
         {
-
         }
     }
 }
