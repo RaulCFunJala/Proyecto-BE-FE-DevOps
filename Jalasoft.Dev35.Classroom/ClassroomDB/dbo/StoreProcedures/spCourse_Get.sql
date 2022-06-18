@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[spCourse_Get]
-@id INT
+@Id INT
 AS
 BEGIN
 	SELECT Id, CourseName, State, CreatedAt, UpdatedAt
