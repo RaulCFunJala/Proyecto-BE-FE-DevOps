@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Student]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[FirstName] VARCHAR(25) NOT NULL,
+	[LastName] VARCHAR(25) NOT NULL,
+	[Birthday] DATE NOT NULL,
+	[CreatedAt] DATE DEFAULT GETDATE(),
+	[CourseId] int FOREIGN KEY REFERENCES Course(Id),
+)

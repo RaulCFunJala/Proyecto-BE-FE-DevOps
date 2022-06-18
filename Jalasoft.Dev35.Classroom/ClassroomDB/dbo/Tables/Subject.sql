@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Subject]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[Title] VARCHAR(25) NOT NULL,
+	[Description] VARCHAR(125) NOT NULL,
+	[CreatedAt] DATE DEFAULT GETDATE(),
+	[CourseId] int FOREIGN KEY REFERENCES Course(Id),
+)
